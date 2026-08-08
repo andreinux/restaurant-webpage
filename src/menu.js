@@ -1,3 +1,5 @@
+
+import "./menu.css"
 export function loadMenu (){
     const container = document.querySelector("#container");
 

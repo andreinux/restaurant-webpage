@@ -11,6 +11,7 @@ let aboutBtn = document.querySelector("#aboutBtn")
 let container = document.querySelector("#container");
 
 homeBtn.addEventListener("click" , ()=> {
+    container.innerHTML = "";
     loadHome();
 })
 
