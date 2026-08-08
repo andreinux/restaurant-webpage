@@ -9,7 +9,7 @@
     --charcoal: #2e2e2e;
 }
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 #container {
@@ -20,11 +20,29 @@
         radial-gradient(circle at 85% 15%, rgba(138, 169, 163, 0.18), transparent 32%),
         linear-gradient(135deg, var(--warm-white), var(--soft-beige));
     color: var(--charcoal);
-    height: 80vh;
 }
 
 
 .collage{
     width: 60%;
     height: 50%;
+}
+.leftSub {
+    width: 55%;
+    outline: 1px solid black;
+    margin-left: 130px;
+    margin-top: 30px;
+    
+}
+
+.headline{
+    color: var(--olive-green);
+    font-size: 4rem;
+    margin-bottom: 1rem;    
+}
+
+.sub{
+    color: var(--terracotta);
+    font-size: 1.4rem;
+    margin-bottom:3rem;
 }

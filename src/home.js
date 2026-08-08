@@ -31,6 +31,7 @@ photoCollage.src = photo ;
 photoContainer.append(photoCollage);
 
 let leftSub = document.createElement("div");
+leftSub.classList.add("leftSub");
 leftSub.append(headline,sub, reserveBtn , exploreMenuBtn)
 container.append(leftSub, photoContainer);
 }
