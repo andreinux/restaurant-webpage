@@ -1,4 +1,5 @@
 import "./home.css"
+import {loadMenu} from "./menu.js";
 import photo from "./collage.png"
 
 
@@ -35,4 +36,10 @@ let leftSub = document.createElement("div");
 leftSub.classList.add("leftSub");
 leftSub.append(headline,sub, reserveBtn , exploreMenuBtn)
 container.append(leftSub, photoContainer);
+
+
+exploreMenuBtn.addEventListener("click", ()=> {
+    container.innerHTML = "";
+    loadMenu();
+})
 }
