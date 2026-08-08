@@ -1,0 +1,124 @@
+/* ABOUT CARDS */
+
+.card-about {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+
+    background-color: #FAF8F5;
+    border: 1px solid #E5DED2;
+    border-radius: 1.2rem;
+
+    box-shadow: 0 5px 15px rgba(46, 46, 46, 0.08);
+
+    box-sizing: border-box;
+}
+
+
+/* MAIN HEADINGS */
+
+.heading {
+    margin: 0 0 1rem;
+
+    color: #2E2E2E;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+/* STORY SUBHEADING */
+
+.subheading {
+    margin: 0 0 1.5rem;
+
+    color: #6E7F55;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+
+/* PARAGRAPHS */
+
+.paragraph {
+    margin: 0;
+
+    color: #2E2E2E;
+    white-space: pre-line;
+}
+
+
+/* QUOTE */
+
+.quote {
+    margin-top: auto;
+    padding-top: 2rem;
+
+    color: #C96C4A;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+/* VISIT US */
+
+.restaurantName {
+    margin: 0 0 0.5rem;
+
+    color: #6E7F55;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.address {
+    margin: 0 0 2rem;
+
+    color: #2E2E2E;
+    line-height: 1.6;
+}
+
+
+/* SECTION HEADINGS */
+
+.sectionHeading {
+    margin: 1.5rem 0 0.6rem;
+
+    color: #2E2E2E;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+/* OPENING HOURS */
+
+.hours {
+    margin: 0;
+
+    color: #2E2E2E;
+    line-height: 1.8;
+    white-space: pre-line;
+}
+
+
+/* CONTACT INFORMATION */
+
+.contactInfo {
+    margin: 0.4rem 0;
+
+    color: #2E2E2E;
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .card {
+        padding: 1.5rem;
+    }
+
+    .heading {
+        font-size: 1.7rem;
+    }
+}
