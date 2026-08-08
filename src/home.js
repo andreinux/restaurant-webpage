@@ -23,6 +23,7 @@ exploreMenuBtn.textContent = "Explore our menu";
 
 
 let photoContainer = document.createElement("div");
+photoContainer.classList.add("photoContainer");
 
 let photoCollage = document.createElement("img");
 photoCollage.classList.add("collage")

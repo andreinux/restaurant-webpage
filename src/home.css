@@ -23,26 +23,106 @@
 }
 
 
-.collage{
-    width: 60%;
-    height: 50%;
-}
 .leftSub {
     width: 55%;
-    outline: 1px solid black;
     margin-left: 130px;
     margin-top: 30px;
     
 }
 
 .headline{
-    color: var(--olive-green);
-    font-size: 4rem;
+    color: var(--charcoal);
+    font-size: 4rem;    
     margin-bottom: 1rem;    
 }
 
 .sub{
-    color: var(--terracotta);
+    color: var(--olive-green);
     font-size: 1.4rem;
-    margin-bottom:3rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.reserveBtn,
+.exploreMenuBtn {
+    margin-top:  1.3rem;
+    display: block;
+    min-height: 3.2rem;
+    padding: 0.85rem 1.35rem;
+    border-radius: 999px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+        transform 180ms ease,
+        background-color 180ms ease,
+        color 180ms ease,
+        border-color 180ms ease,
+        box-shadow 180ms ease;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.reserveBtn {
+    border: 1px solid var(--olive-green);
+    background-color: var(--olive-green);
+    color: var(--warm-white);
+    box-shadow: 0 10px 22px rgba(110, 127, 85, 0.2);
+}
+
+.reserveBtn:hover {
+    background-color: #5c6c47;
+    border-color: #5c6c47;
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(110, 127, 85, 0.28);
+}
+
+.exploreMenuBtn {
+    border: 1px solid var(--olive-green);
+    background-color: rgba(250, 248, 245, 0.8);
+    color: var(--olive-green);
+}
+
+.exploreMenuBtn:hover {
+    background-color: var(--soft-beige);
+    color: #53613f;
+    border-color: #53613f;
+    transform: translateY(-2px);
+}
+
+.reserveBtn:focus-visible,
+.exploreMenuBtn:focus-visible {
+    outline: 3px solid rgba(138, 169, 163, 0.65);
+    outline-offset: 3px;
+}
+
+
+.photoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.collage{
+    width: 43%;
+    height: 68%;
+    margin-top: 10%;
+    border-radius: 15px;
+      box-shadow:
+        0 1.25rem 3.5rem rgba(46, 46, 46, 0.16),
+        0 0.25rem 1rem rgba(46, 46, 46, 0.08);
+         object-fit: cover;
+         transition: 0.3s ease;
+}
+
+.collage:hover{
+    transform: translateY(-3px);
+    box-shadow:
+        5px 1.25rem 8.5rem rgba(46, 46, 46, 0.16),
+        0 0.25rem 6rem rgba(46, 46, 46, 0.08);
 }

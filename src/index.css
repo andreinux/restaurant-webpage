@@ -26,12 +26,13 @@ html, body {
     padding: 1.5rem;
     display: grid;
     grid-template-columns: 1fr 3fr;
+    box-shadow: 0 5px 3px gray;
 }
 
 nav {
     display: flex;
     gap: 5rem;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     
 }
@@ -99,4 +100,8 @@ nav {
 
 #content {
     height: 100vh;
+}
+
+#aboutBtn{
+    margin-right: 4rem;
 }
