@@ -2,7 +2,8 @@
 .card {
     min-height: 240px;
     padding: 1.5rem;
-    display: flex;
+    display: grid;
+    grid-template: 1fr / 2fr 1fr;
     flex-direction: column;
     border: 1px solid rgba(110, 127, 85, 0.14);
     border-radius: 1rem;
@@ -11,7 +12,8 @@
     transition:
         transform 180ms ease,
         box-shadow 180ms ease;
-        margin: 5px;
+        margin-top: 10px;
+        margin-right: 5px;
 }
 
 .card:hover {
@@ -70,3 +72,22 @@
         min-height: 0;
     }
 }
+
+.img {
+    height: 180px;;
+    width: 80%;
+    border-radius: 999px;
+    border: 3px solid #F3EFE8;
+    box-shadow: 0 6px 18px rgba(46, 46, 46, 0.15);
+    object-fit: cover;
+}
+.price {
+    margin-top: auto;
+}
+
+.cardLeft {
+    display: flex;
+    flex-direction: column;
+     height: 100%;
+}
+

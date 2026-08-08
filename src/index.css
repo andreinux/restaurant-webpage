@@ -11,6 +11,7 @@ html, body {
   height: 100vh;
   height: 100dvh; /* Modern fix for mobile address bars */
   overflow: visible; /* Hard stop for any overflow scrolling */
+  overflow-x: hidden;
 }
 :root {
     --warm-white: #faf8f5;
