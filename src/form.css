@@ -1,0 +1,68 @@
+form {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: var(--warm-white);
+    border: 1px solid var(--soft-beige);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 8px 25px rgba(46, 46, 46, 0.08);
+}
+
+form h2 {
+    color: var(--charcoal);
+    font-size: 1.8rem;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+form label {
+    color: var(--charcoal);
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 14px;
+    border: 1px solid #ded8ce;
+    border-radius: 8px;
+    background-color: white;
+    color: var(--charcoal);
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+form input:focus {
+    border-color: var(--seafoam);
+    box-shadow: 0 0 0 3px rgba(138, 169, 163, 0.2);
+}
+
+form button {
+    margin-top: 20px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--olive-green);
+    color: var(--warm-white);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+form button:hover {
+    background-color: var(--terracotta);
+    transform: translateY(-2px);
+}
+
+form button:active {
+    transform: translateY(0);
+}

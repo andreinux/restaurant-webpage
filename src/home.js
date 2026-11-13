@@ -1,6 +1,7 @@
 import "./home.css"
 import {loadMenu} from "./menu.js";
 import photo from "./collage.png"
+import {loadForm} from "./form.js";
 
 
 export function loadHome (){
@@ -41,5 +42,13 @@ container.append(leftSub, photoContainer);
 exploreMenuBtn.addEventListener("click", ()=> {
     container.innerHTML = "";
     loadMenu();
+})
+
+
+
+
+reserveBtn.addEventListener("click", ()=> {
+    container.innerHTML = "";
+    loadForm();
 })
 }
